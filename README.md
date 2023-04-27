@@ -1,10 +1,8 @@
 Chanel Landing Page Clone
 
--HTML
-
--CSS
-
--Javascript
+- HTML
+- CSS
+- Javascript
 
 ![](images/chanel-1.jpg)
 
