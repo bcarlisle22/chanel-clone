@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li, li a{
+    list-style: none;
+}
+
+/* top- nav */
+.main-nav{
+    position: fixed;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    margin-top: 0;
+    padding-top: 2%;
+}
+#chanel-logo-top{
+    width: 8%;
+    margin-left: 45%;
+}
+.c-nav{
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.c-nav li a{
+    margin: 5px 30px;
+}
+hr{
+    height: 1px;
+    border: 1px;
+    background-color: white;
+}
+
+/* main-page */
+
+/* first image */
+
+#mothers-day{
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/chanel1-1.webp) no-repeat fixed;
+}
+.main-content {
+    padding-top: 30%;
+}
+.main-content h1{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+ p{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+#main-page-button{
+    text-transform: uppercase;
+    background-color: white;
+    width: 7%;
+    padding: 15px;
+    border: 0.5px solid black;
+    transition: ease 0.75s;
+}
+
+#main-page-button a:hover{
+    text-decoration: underline;
+    transition: ease 0.75s;
+}
+/* image two */
+
+#makeup{
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/chanel1.webp) no-repeat fixed;
+}
+/* image three */
+
+#fashion{
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/chanel1-2.webp) no-repeat fixed;
+}
+/* image four */
+
+#capsule{
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/chanel1-3.webp) no-repeat;
+}
+/* image five */
+
+#skincare{
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/chanel2.webp) no-repeat fixed;
+}
+
+#eyewear{
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/chanel1-4.webp) no-repeat fixed;
+}
+#fine-jewelry{
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/chanel5.webp) no-repeat fixed;
+}
+#haute{
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/chanel9.webp) no-repeat;
+}
+#h-jewelry{
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/chanel8.webp) no-repeat fixed;
+}
+#info-section{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    margin-left: 15%;
+}
+.contact, .newsletter, .store{
+    margin-right: 7%;
+}
+.contact h1, .newsletter h1, .store h1{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contact p, .newsletter p, .store p{
+    font-weight: 200;
+    font-size: 14px;
+    color: grey;
+
+}
+.contact a, .newsletter a{
+    text-decoration: underline;
+    color: grey;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: 300;
+}
+#info-list{
+    display: flex;
+}
+
+/* footer */
+
+#footer{
+    background-color: black;
+    
+}
+#chanel-logo{
+    width: 8%;
+    margin-left: 40%;
+    margin-right: 50%;
+    padding-top: 10%;
+}
+
+.footer-div{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+#footer a, #footer h1{
+    color: #fff;
+}
+#footer a{
+    color: grey;
+}
+.explore , .online , .services , .house{
+    margin-right: 8%;
+}
+.explore h1, .online h1, .services h1, .house h1{
+    font-size: .875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+#online-list li a{
+    font-size: 14px;
+    font-weight: 200;
+
+}
+#online-list a:hover{
+    text-decoration: underline;
+
+}
+
+.location{
+    background-color: black;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20%;
+}
+.location h1{
+    font-size: 11px;
+    color:grey;
+    font-weight: 200;
+}
+
+#usa{
+    color: #fff;
+    font-weight: 300;
+    margin-left: 15px;
+}
