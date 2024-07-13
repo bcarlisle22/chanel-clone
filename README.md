@@ -1,5 +1,5 @@
 Chanel Landing Page Clone 
-<h>
+<hr>
 <br>
 
 ``HTML`` | ``CSS``
